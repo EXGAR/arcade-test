@@ -9,9 +9,10 @@ let text_list = [
 for (let value of text_list) {
     game.showLongText(value, DialogLayout.Bottom)
 }
+mySprite.setPosition(60, 40)
 animation.runImageAnimation(
 mySprite,
-assets.animation`x-ray name animation`,
+assets.animation`logoani2`,
 100,
 false
 )
